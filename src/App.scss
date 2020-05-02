@@ -1,0 +1,51 @@
+$primaryPurple: #C3A4D3;
+$secondaryPurple: #9476A3;
+$primaryGrey: #F4F4F3;
+$secondaryGrey: #B4B4B4;
+$primaryTeal: #81E4CF;
+$border: #343434;
+
+.App {
+  text-align: center;
+}
+
+html, body, #root, .App, .app-frame {
+  height: 100%
+}
+
+.app-frame {
+  width: 100%;
+  display: flex;
+}
+
+.app-body {
+  display: inline-block;
+  width: 100%;
+  background-color: $primaryPurple;
+}
+
+.nav-body {
+  display: flex;
+  background-color: $secondaryPurple;
+  border-right: 2px solid $border;
+
+  .nav-header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    height: 25px;
+    margin: 10px 20px 0 17px;
+
+    .nav-bars {
+      padding: 5px;
+      border: 2px solid $border;
+      border-radius: 5px;
+      height: 20px;
+      width: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
